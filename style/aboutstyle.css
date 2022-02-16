@@ -1,0 +1,240 @@
+body {
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+/* Top of page Nav */
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: "Sunflower", sans-serif;
+}
+
+/* logo */
+
+.logo {
+    list-style-type: none;
+}
+
+.navbar li img {
+    padding: 0px 25px;
+    width: 45px;
+    height: 45px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* nav links and icons */
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-list a {
+    color: #dc3f2f;
+    text-decoration: none;
+    margin: 35px;
+    padding: 10px;
+
+}
+
+.nav-list a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #dc3f2f;
+    border-radius: 20px;
+}
+
+
+.iconify {
+    height: 2rem;
+    padding: 15px;
+    width: auto;
+    align-items: center;
+}
+
+/* 2 containers within a large container */
+
+.large-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    position: absolute;
+    width: 577px;
+    height: 678px;
+    left: 150px;
+    top: 112px;
+    max-width: 100%;
+    display: block;
+}
+
+
+.right-container {
+    position: absolute;
+    width: 720px;
+    height: 684px;
+    left: 800px;
+    top: 170px;
+    background: url(Friends.png);
+
+}
+
+/* styling contents of left container */
+
+h1 {
+    font-family: "sunflower", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 90px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #dc3f2f;
+}
+
+.journey {
+    font-family: "Sunflower", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 90px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 165%;
+    /* or 40px */
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align:left
+
+}
+
+.message-button{
+    color: #ffffff;
+    background-color: #dc3f2f;
+    border: none;
+    height: 55px;
+    width:208px;
+    border-radius: 25px;
+    font-family: "sunflower", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing:0.05em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+
+}
+
+.message-button:hover{
+    background-color: #ffffff;
+    color: #dc3f2f;
+    cursor: pointer;
+}
+/* footer starts */
+
+.footer-block {
+    background-color: #dc3f2f;
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, .88);
+    height: 100%;
+    width: 90%;
+    font-family: "Sunflower", sans-serif;
+    margin: auto;
+}
+
+.top-footer {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.footer-logo {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, .0001%);
+
+}
+
+.footer-list li a {
+    color: rgba(255, 255, 255, .88);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.footer-list li a:hover{
+	color: #fff;
+	text-decoration:underline;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-footer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.footer-line {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, .88);
+    margin: auto;
+}
+
+.copyright p {
+    margin-right: 8px;
+}

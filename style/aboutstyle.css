@@ -7,11 +7,11 @@ body {
 /* Top of page Nav */
 
 /* logo */
-.logo{
-	list-style-type: none;
-	display: flex;
-	flex: 1;
-	/* background-color: black; */
+.logo {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    /* background-color: black; */
 }
 
 
@@ -21,7 +21,7 @@ body {
     padding: 0px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     font-family: "Sunflower", sans-serif;
@@ -56,9 +56,9 @@ body {
 
 }
 
-/* .nav-list a:visited{
+.nav-list a:visited{
 	color: #284664;
-} */
+}
 
 
 .nav-list a:hover {
@@ -69,8 +69,8 @@ body {
 
 
 .iconify {
-    height: 2rem;
-    padding: 15px;
+    height: 3rem;
+    padding: 0px 10px;
     width: auto;
     align-items: center;
     /* background-color: #000000; */
@@ -145,27 +145,26 @@ h1 {
     align-items: flex-end;
     letter-spacing: -0.02em;
     color: #000000;
-    text-align:left
-
+    text-align: left
 }
 
-.message-button{
+.message-button {
     color: #ffffff;
     background-color: #dc3f2f;
     border: none;
     height: 55px;
-    width:208px;
+    width: 208px;
     border-radius: 25px;
     font-family: "sunflower", sans-serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 21px;
-    letter-spacing:0.05em;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+    letter-spacing: 0.05em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
 
-.message-button:hover{
+.message-button:hover {
     background-color: #ffffff;
     color: #dc3f2f;
     cursor: pointer;
@@ -174,102 +173,103 @@ h1 {
 
 /* Footer starts */
 
-.footer-block{
-	align-items: center;
-	background-color: #dc3f2f;
-	height: 300px;
-	width: 100%;
+.footer-block {
+    align-items: center;
+    background-color: #dc3f2f;
+    height: 300px;
+    width: 100%;
 }
 
-footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	/* align-items: center; */
-	padding-top: 75px;
-	color:rgba(255, 255, 255, .88);
-	height: 50%;
-	width: 90%;
-	font-family: "Sunflower", sans-serif;
-	margin: auto;
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 75px;
+    color: rgba(255, 255, 255, 1);
+    height: 50%;
+    width: 90%;
+    font-family: "Sunflower", sans-serif;
+    margin: auto;
 }
 
-.top-footer{
-	display: flex;
-	height: 50%;
-	align-items: center;
-	position: relative;
-	width: 100%;
-	justify-content:space-between;
+.top-footer {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.top-footer h2{
-	padding-left: 15px;
-}
-
-
-.footer-logo{
-	position: absolute;
-	top: -45px;
-	height: 100%;
-	left: 50%;
-	transform: translate(-50%,.0001%);
-
-}
-
-.footer-list li a{
-	color: rgba(255, 255, 255);
-	text-decoration: none;
-	padding: 15px 15px 0px 75px;
-}
-
-.footer-list li a:hover{
-	color: #fff;
-	text-decoration:underline;
+.top-footer h2 {
+    padding-left: 15px;
 }
 
 
-.footer-list{
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-
-.bottom-footer{
-	height:50%;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	align-items: center;
+.footer-logo {
+    position: absolute;
+    top: -45px;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, .0001%);
 
 }
 
-.footer-links{
-	padding: 15px;
+.footer-list li a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 15px 0px 75px;
 }
 
-.copyright{
-	display: flex;
-	align-items: center;
+.footer-list li a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
-.footer-line{
-	width: 100%;
-	height: 2px;
-	background-color: rgba(255, 255, 255, .88);
-	margin: auto;
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
-.copyright p{
-	margin-right: 8px;
+.bottom-footer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.footer-links {
+    padding: 15px;
+    color: #fff;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.footer-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+.copyright p {
+    margin-right: 8px;
 }
 
 /* Roque Martinez. Illustrate your imagination. On main page */
 
-.homepagename{
-	position:absolute;
-	top: 50%;
-	transform: translate(-50%,-50%);	
-	width: 30%;
-	left: 50%;
+.homepagename {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    left: 50%;
 }

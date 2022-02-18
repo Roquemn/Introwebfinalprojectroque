@@ -83,12 +83,11 @@ body {
     position: absolute;
     z-index: 0;
     left: -80px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .large-container {
     display: flex;
-    gap: 80px;
     flex-direction: row-reverse;
     background-color: #ffffff;
     width: 100%;
@@ -96,6 +95,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('yellowcircle.png');
+    padding-left: 0px;
 }
 
 .left-container {
@@ -118,6 +118,7 @@ body {
     top: 170px; */
     background: url(Friends.png);
     z-index: 2;
+    margin-left:90px;
 
 }
 
